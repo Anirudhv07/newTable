@@ -3,6 +3,6 @@ import controllers from "../controller/controller";
 
 const router=express.Router()
 
-    router.get('/api/getToll',controllers.getAllData)
+    router.get('/api',controllers.getAllData)
 
 export default router
